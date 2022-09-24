@@ -41,4 +41,6 @@ Menggunakan tcp contains lipi.go.id untuk menapilkan file yang dicari.
 7. Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
 
 Menggunakan ip.src == 192.168.1.5 untuk mencari file yang dicari.
-<img src='=>
+<img src='https://github.com/D-060103/Jarkom-Modul-1-F08-2022/blob/main/7.png'>
+
+8.
