@@ -26,4 +26,19 @@ Cara pengerjaan, yaitu mendownload file soal no 3-7 terlebih dahulu, kemudian me
 4. Filter sehingga wireshark hanya mengambil paket yang berasal dari port 21!
 
 Menggunakan tcp.srcport == 21 untuk menampilkan file yang dicari.
-<img src=''>
+<img src='https://github.com/D-060103/Jarkom-Modul-1-F08-2022/blob/main/4.png'>
+
+5. Filter sehingga wireshark hanya mengambil paket yang berasal dari port 443!
+
+Menggunakan tcp.srcport == 443 untuk menampilkan file yang dicari.
+<img src='https://github.com/D-060103/Jarkom-Modul-1-F08-2022/blob/main/5.png'>
+
+6. Filter sehingga wireshark hanya menampilkan paket yang menuju ke lipi.go.id !
+
+Menggunakan tcp contains lipi.go.id untuk menapilkan file yang dicari.
+<img src='https://github.com/D-060103/Jarkom-Modul-1-F08-2022/blob/main/6.png'>
+
+7. Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
+
+Menggunakan ip.src == 192.168.1.5 untuk mencari file yang dicari.
+<img src='=>
